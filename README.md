@@ -39,16 +39,16 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
-
+Relational databases are used to save our data and SQL is the language used to interacts with our databases.
 
 - [ ] Why do tables need a `primary key`?
-Id first and foremost
+Tacles need an PK so that we can log all of our information and boost ourperformance speed and normalization process. 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 That would be the foreign key
 
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
-We need to normalize our schemas and set up our foreaign keys
+We need to normalize our schemas and build a bridge table with set up foreaign keys
 
 ## Minimum Viable Product
 

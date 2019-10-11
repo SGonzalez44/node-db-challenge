@@ -4,7 +4,7 @@
   "description": "## Description",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/SGonzalez44/node-db-challenge#readme",
   "dependencies": {
+    "core-util-is": "^1.0.2",
     "express": "^4.17.1",
     "helmet": "^3.21.1",
     "knex": "^0.19.5",
-    "sqlite3": "^4.1.0"
+    "sqlite3": "^4.1.0",
+    "webpack-dev-server": "^3.8.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
