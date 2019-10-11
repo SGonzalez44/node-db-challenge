@@ -1,3 +1,4 @@
+
 exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex('projects').truncate()
@@ -6,7 +7,6 @@ exports.seed = function(knex) {
       return knex('projects').insert([
         {name: 'cook'},
         {name: 'clean'},
-        {name: 'code'}
       ]);
     });
 };

@@ -4,12 +4,12 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('tasks').insert([
-        {project_id: 1, description: 'food-prep'},
-        {project_id: 1, description: 'code'},
-        {project_id: 1, description: 'stock-toilet'},
-        {project_id: 2, description: 'youtube'},
-        {project_id: 2, description: 'wash'},
-        {project_id: 2, description: 'cash-checks'},
+        {project_id: 1, description: 'prep food'},
+        {project_id: 1, description: 'cook food'},
+        {project_id: 1, description: 'clean up'},
+        {project_id: 2, description: 'gather clothes'},
+        {project_id: 2, description: 'wash clothes'},
+        {project_id: 2, description: 'dry clothes'},
       ]);
     });
 };
