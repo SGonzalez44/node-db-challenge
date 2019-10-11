@@ -6,7 +6,7 @@ exports.seed = function(knex) {
       return knex('projects').insert([
         {name: 'cook'},
         {name: 'clean'},
-        {name: 'code'},
+        {name: 'code'}
       ]);
     });
 };

@@ -1,10 +1,9 @@
-
 exports.up = function(knex) {
     return knex.schema.createTable('projects', tbl => {
       tbl.increments()
-      tbl.string('name', 144)
+      tbl.string('name', 255)
         .notNullable()
-      tbl.string('description', 144)
+      tbl.string('description', 255)
         .nullable()
       tbl.binary('completed', 1)
         .notNullable()
