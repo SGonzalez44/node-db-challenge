@@ -42,7 +42,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Relational databases are used to save our data and SQL is the language used to interacts with our databases.
 
 - [ ] Why do tables need a `primary key`?
-Tacles need an PK so that we can log all of our information and boost ourperformance speed and normalization process. 
+Tables need an PK so that we can log all of our information and boost our performance speed and normalization process. 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 That would be the foreign key
